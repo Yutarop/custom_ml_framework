@@ -4,6 +4,7 @@ import numpy as np
 class Variable:
     def __init__(self, data):
         self.data = data
+        self.grad = None
 
 # example of how to use variable class
 data = np.array(1.0)
